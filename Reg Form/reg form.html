@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black</title>
+    <link rel="stylesheet" href="regstyle.css">
+    <link rel="icon" href="clipart4371313.png" type="image/icon Type">
+</head>
+<body>
+    <table>
+        <caption><h3>Registration Form<img src="clipart4371313.png"></h3></caption>
+        <form action="action.php">
+            <tr>
+                <td><label for="uname">Name</label></td>
+                <td><input type="text" name="uname" id="fname" placeholder="First Name" maxlength="15" required></td>
+                <td><input type="text" name="uname" id="lname" placeholder="Last Name" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td><label for="num">Phone Number</label></td>
+                <td colspan="2"><select name="code" id="code">
+                    <option value="code">Dial</option>
+                    <option value="code">+91</option>
+                </select>&ensp;<input type="tel" name="num" id="num" placeholder="123-456-7890" maxlength="10" required></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td colspan="2"><input type="radio" name="gender" id="gender">Male <input type="radio" name="gender" id="gender">Female <input type="radio" name="gender" id="gender">Others</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth</label></td>
+                <td colspan="2"><input type="date" name="dob" id="dob" min="1980-01-01" max="2006-12-31" required></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-Mail<label></td>
+                <td colspan="2"><input type="email" name="mail" id="mail" placeholder="abc@mail.com" required></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td ><label for="address">Address</label></td>
+                <td colspan="2" ><input type="text" name="address" id="address" placeholder="Enter Your Address"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="edu">Qualification</label></td>
+                <td colspan="2"><select name="edu" id="edu">
+                    <option value="edu">--Choose Qualification--</option>
+                    <option value="edu">SSLC</option>
+                    <option value="edu">HSC</option>
+                    <option value="edu">Diploma</option>
+                    <option value="edu">Under Graduate</option>
+                    <option value="edu">Post Graduate</option>
+                    <option value="edu">Doctrate</option>
+                </select></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="des">Designation</label></td>
+                <td colspan="2"><select name="des" id="des">
+                    <option value="des">--Choose Designation--</option>
+                    <option value="des">Worker</option>
+                    <option value="des">Student</option></td>
+                    <td></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password</label></td>
+                <td colspan="2"><input type="password" name="pwd" id="pwd" placeholder="Type Your Password" maxlength="15" minlength="8" required></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><input type="password" name="pwd" id="pwd" maxlength="15" minlength="8" placeholder="Re-Type Your Password" required></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="tc" id="tc" required><span>I accept all the</span> <a href="terms&con.html" target="_blank">terms and conditions</a></td>
+                <td></td>
+            </tr>
+            <tr align="center">
+                <td colspan="3"><button type="submit" >Register</button></td>
+                <td></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

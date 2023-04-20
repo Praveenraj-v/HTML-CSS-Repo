@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    background-image: url('elegantdarkgreen.jpg');
+    overflow: hidden;
+  }
+  .maindiv{
+    max-width: 600px;
+    height: 500px;
+    padding: 0 20px;
+    margin: 100px auto;
+    border-radius: 5px;
+    background:linear-gradient(to bottom right,#199167, rgb(204, 176, 18));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subdiv1{
+    width: 70%;
+    background: white ;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px -10px 10px 1px rgb(204, 176, 18),
+                10px 0px 10px 1px #199167,
+                0px 10px 10px 1px #199167,
+                -10px 0px 10px 1px rgb(204, 176, 18);
+    
+  }
+  .subdiv1 .head1{
+    margin-left: 100px;
+    line-height: 50px;
+    color:  #199167;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .subdiv1 form{
+    padding: 30px 25px 25px 25px;
+  }
+  .subdiv1 form .row1{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .subdiv1 form .row1 input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  .subdiv1 form .submit input{
+    width: 355px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #199167;;
+    border: 1px solid #199167;
+    cursor: pointer;
+  }
+  form .submit input:hover{
+    background:  rgb(204, 176, 18);
+  }

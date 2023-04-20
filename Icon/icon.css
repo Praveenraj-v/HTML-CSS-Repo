@@ -1,0 +1,58 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+body{
+    background:linear-gradient(to bottom right, skyblue,lightgreen,pink,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+    margin-left: 20%;
+    color:white;
+}
+#fname,#mail,#phone,#query1::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    color: black;
+}
+.form1{
+    border: 3px solid black;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+}
+#fname,#mail,#phone,#query1{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 30px;
+    word-spacing: 10px;
+}
+#query1{
+    height: 60px;
+}
+.head1{
+    float:left;
+    margin-left:8px;
+}
+img{
+    margin-top: 20px;
+    float: left;
+    margin-left: 30px;
+}
+.head2{
+    margin-top: 80px;
+}
+#query{
+    margin-bottom:15px ;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.60);
+    width: 60%;
+    height:33px;
+    border-radius: 5px;
+    color: white;
+}
+h5{
+    padding-bottom: 20px;
+}
+
